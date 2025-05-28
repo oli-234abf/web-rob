@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #240808;
+    color: #644040;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(194,166,134);
+}
+
+header .h1{
+    font-size: 2em;
+}
+
+header .nav ul li{
+    color: aliceblue;
+}
+
+header .btn-contexto button{
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #eee;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
