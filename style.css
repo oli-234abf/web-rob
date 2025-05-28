@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #240808;
-    color: #644040;
+    background-color: #351223;
+    color: #cccdeb;
 }
 
 .container{
@@ -12,7 +12,8 @@ body{
 }
 
 header{
-    background-color: #333;
+    background-image: -moz-linear-gradient(top, #121d14);
+    background-color: #121d41;
     padding: 20px 0;
 }
 
@@ -20,7 +21,9 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(194,166,134);
+    background-color: rgb(40, 31, 73);
+    border-radius: 10px;
+    padding: 10px 20px;
 }
 
 header .h1{
